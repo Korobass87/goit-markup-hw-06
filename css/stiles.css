@@ -930,7 +930,7 @@ img {
   transition: background-color var(--duration) var(--cubic-bezier);
 }
 .check-agree {
-  visibility: hidden;
+  appearance: none;
   position: absolute;
 }
 
