@@ -680,6 +680,7 @@ img {
 
 .footer-social {
   margin-left: 70px;
+  margin-right: 93px;
 }
 
 .footer-icons {
@@ -715,7 +716,7 @@ img {
   background-color: var(--blue-color);
 }
 
-.footer-social p {
+.footer-heading {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -958,4 +959,81 @@ img {
 .textarea-block:focus {
   outline: none;
   border-color: var(--blue-color);
+}
+
+.footer-form p {
+  margin-bottom: 20px;
+}
+
+.footer-form form {
+  display: flex;
+}
+
+.footer-form input {
+  width: 358px;
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.footer-form input::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-form input {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255);
+}
+
+.footer-form button {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-left: 12px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  border: 0;
+  display: flex;
+  padding: 0;
+
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.footer-form svg {
+  margin-left: 10px;
+}
+
+.modal-button:hover svg,
+.modal-button:focus svg {
+  fill: var(--blue-color);
 }
